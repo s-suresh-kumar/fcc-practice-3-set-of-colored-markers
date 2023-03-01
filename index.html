@@ -2,7 +2,7 @@
 As you've seen in the previous projects, webpages should start with a DOCTYPE html declaration, followed by an html element.
 
 Add a DOCTYPE html declaration at the top of the document, and an html element after that. Give the html element a lang attribute with en as its value. -->
-
+html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,6 +26,14 @@ To tell browsers how to encode characters on your page, set the charset to utf-8
 Inside the head element, nest a meta element with the attribute charset set to utf-8. Remember that meta elements are self-closing, and do not need a closing tag. -->
 
 <meta charset="utf-8">
+<!-- 
+Step 5
+You can have multiple self-closing meta elements on a web page. What distinguishes one meta element from the other is the attribute. You should add a new meta element for each attribute you want to specify.
+
+Add another self-closing meta element within the head. Give it a name attribute set to viewport and a content attribute set to width=device-width, initial-scale=1.0 so your page looks the same on all devices. -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
