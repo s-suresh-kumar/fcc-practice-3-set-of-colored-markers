@@ -328,7 +328,10 @@ Now you'll apply a gradient to the blue marker, this time using the hsl function
 In the .blue CSS rule, change the background-color property to background.
 background-color: hsl(240,100%,50%); */
 
+/* Step 67
+Use the linear-gradient function, and pass in the hsl function with the values 186 for hue, 76% for saturation, and 16% for lightness as the first color argument.
+background: hsl(240,100%,50%); */
 
 .blue {
-  background: hsl(240,100%,50%);
+  background: linear-gradient( hsl(186, 76%, 16%));
 }
