@@ -175,7 +175,10 @@ There are several other important color combinations outside of complementary co
 
 For now, use the rgb function in the .two CSS rule to set the background-color to black. */
 
-.two {
+/* Step 45
+Update the CSS class selector .two so it targets the new green class. And update the .three class selector so it targets the new blue class. */
+
+.green {
   background-color: rgb(0,0,0);
 }
 
@@ -185,6 +188,6 @@ To create the final secondary color, magenta, update the rgb function in the .th
 /* Step 33
 And to create the tertiary color violet, combine magenta with blue. Update the rgb function in the .three CSS rule so that blue is at the max value, and set red to 127. */
 
-.three {
+.blue {
   background-color: rgb(0,0,0);
 }
