@@ -9,8 +9,11 @@ p {
 }
 Create a new CSS rule that targets the h1 element, and set its text-align property to center. */
 
+/* First, in the h1 rule, use the rgb function to set its background-color to cyan. */
+
 h1 {
   text-align: center;
+  background-color:rgb(0,255,255);
 }
 
 /* Step 21
