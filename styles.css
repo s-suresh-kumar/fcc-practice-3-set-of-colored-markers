@@ -265,8 +265,16 @@ The red marker is looking much more realistic. Now you'll do the same for the gr
 In the .green CSS rule, change the background-color property to background.
   background-color: #007F00; */
 
+  /* Step 61
+  For this marker, you'll use hex color codes for your gradient.
+  
+  Use the linear-gradient function and set gradientDirection to 180deg. And for the first color argument, use a hex color code with the values 55 for red, 68 for green, and 0D for blue.
+    background: #007F00;
+
+  */
+
 .green {
-  background: #007F00;
+  background: linear-gradient(180deg, #55680d);
 }
 
 /* Step 30
