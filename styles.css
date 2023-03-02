@@ -26,7 +26,9 @@ Create a new CSS rule that targets the class marker, and set its background-colo
 Note: You will not see any changes after adding the CSS. */
 
 .marker {
-  background-color: red;
+
+  /* Step 17
+  Next, remove the background-color property and its value from the .marker CSS rule. */
 
   /* Step 12
   The background color was applied, but since the marker div element has no content in it, it doesn't have any height by default.
