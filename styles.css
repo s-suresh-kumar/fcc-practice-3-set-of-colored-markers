@@ -208,8 +208,16 @@ Update the rgb function so the value for red is 162, the value of green is 27, a
  In the .red CSS rule, remove the three color stops from the linear-gradient function to clean up your code a bit.
  background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%); */
 
+ /* Step 65
+ If no gradientDirection argument is provided to the linear-gradient function, it arranges colors from top to bottom, or along a 180 degree line, by default.
+ 
+ Clean up your code a little more by removing the gradientDirection argument from both linear-gradient functions.
+ background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+ background: linear-gradient(180deg, #55680D, #71F53E, #116C31); */
+
+
 .red {
-  background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
 }
 
 /* Step 20
@@ -292,7 +300,7 @@ For the second color argument, use a hex color code with the values 71 for red, 
   background: linear-gradient(180deg, #55680D, #71F53E); */
 
 .green {
-  background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
+  background: linear-gradient( #55680D, #71F53E, #116C31);
 }
 
 /* Step 30
