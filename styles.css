@@ -123,8 +123,11 @@ Two colors that are opposite from each other on the color wheel are called compl
 
 In the rgb function for the .one CSS rule, set the red value to the max of 255 to produce pure red. In the rgb function for .two CSS rule, set the values for green and blue to the max of 255 to produce cyan. */
 
+/* Step 38
+Next, in the .one CSS rule, use the rgb function to set the background-color to black. And in the .two CSS rule, use the rgb function to set the background-color to red. */
+
 .one {
-  background-color: rgb(255,0,0);
+  background-color: rgb(0,0,0);
 }
 
 /* Step 20
@@ -158,7 +161,7 @@ Notice that, to create orange, you had to increase the intensity of red and decr
 To create the tertiary color spring green, combine cyan with green. Update the rgb function in the .two CSS rule so that green is at the max value, and set blue to 127. */
 
 .two {
-  background-color: rgb(0,255,255);
+  background-color: rgb(255,0,0);
 }
 
 /* Step 30
