@@ -462,10 +462,14 @@ For the second color argument, use a hex color code with the values 71 for red, 
   box-shadow: 5px 5px 5px green;
   box-shadow: 0px 0px 0px 5px blue; */
 
+  /* Step 93
+  For the green marker's box-shadow property, replace the named color with a hex color code. Use the values 3B for red, 7E for green, 20 for blue, and CC for the alpha channel.
+  box-shadow: 0 0 20px 0 green; */
+
 
 .green {
   background: linear-gradient( #55680D, #71F53E, #116C31);
-  box-shadow: 0 0 20px 0 green;
+  box-shadow: 0 0 20px 0 #3B7E20CC;
 }
 
 /* Step 30
