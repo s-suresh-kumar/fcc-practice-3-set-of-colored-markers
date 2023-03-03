@@ -338,9 +338,17 @@ Update the rgb function so the value for red is 162, the value of green is 27, a
  
  In the .red CSS rule, add the box-shadow property with the values 5px for offsetX, 5px for offsetY, and red for color. */
 
+ /* Step 87
+As you can see, you added a simple red shadow around your marker that's 5 pixels to the right, and 5 pixels down.
+
+But what if you wanted to position your shadow on the opposite side? You can do that by using negative values for offsetX and offsetY.
+
+Update the values for the box-shadow property, and set offsetX to -5px, and offsetY to -5px.
+ box-shadow: 5px 5px red; */
+
  .red {
   background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
-  box-shadow: 5px 5px red;
+  box-shadow: -5px -5px red;
 }
 
 /* Step 20
